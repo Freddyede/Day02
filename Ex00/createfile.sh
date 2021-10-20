@@ -1,1 +1,1 @@
-echo package.json package-lock.json next.config.js node_modules/ styles/ public/ pages/ | tr " " "\n" | sort -d |tee sorted.txt
+ls | sort -f | tee sorted.txt | wc -l;
